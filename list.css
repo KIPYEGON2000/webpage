@@ -1,0 +1,21 @@
+.navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: gray;
+    margin: 3px;
+}
+a{
+    text-decoration: none;
+}
+.todoList,.todo{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 20px;
+    
+
+    background-color:white;
+}
+
+/* .name{background-color: red;} */

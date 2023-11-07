@@ -1,0 +1,157 @@
+body{height: 3000px;
+padding-top: 40px;
+padding-left: 50px;}
+.nav,mende{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    background-color: white;
+    position:fixed;
+    left: 3px;
+    right: 3px;
+    margin-top: 0px;
+    top: 0px;
+    color: bisque;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: brown;
+    z-index: 100;
+    
+}
+.left-nav{
+    display: flex;
+    margin-right:200px;
+    margin-left: 5px;
+    align-items: center;
+  
+  
+    vertical-align: top;
+    
+}
+.midle-nav{
+    display: flex;
+    flex: 1;
+  
+    align-items: center;
+    max-width: 300px;
+}
+.right-nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items:center;
+    color:black;
+
+}
+body{
+    background-color: skyblue;
+   
+
+}
+button{
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button-home:hover{
+background-color:red;
+transition: background 2s;
+font-size: 15px;
+font-weight: bold;
+}
+.button-home:active{
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+    background-color: aqua;
+    font-weight: bold;
+    color: blue;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 10px;
+    
+
+}
+p{
+    /* background-color: gray; */
+   
+}
+.imgs{
+    width:100%;
+    cursor: crosshair;
+   
+}
+.images{
+    vertical-align: top;
+    display: inline-block;
+
+}
+.small{
+    width: 25px;
+    border-radius: 100%;
+   
+    
+}
+.poto{
+    display: inline-block;
+    width: 25px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.para{
+    display: inline-block;
+    max-width: 100%;
+    margin-top:0px;
+}
+a{
+    color: red;
+    text-decoration:none;
+    background-color: aliceblue;
+
+}
+a:hover{
+    background-color: black;
+    transition: background 2s;
+}
+.sidebar{
+    position: fixed;
+    top:40px;
+    left: 0px;
+    bottom: 0px;
+    width: 50px;
+    background-color:skyblue;
+
+}
+.nom{
+    position: relative;
+    margin-top: 5px;
+}
+.dis{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: azure;
+    font-size: 30px;
+}
+.small-side{
+    border-radius: 50px;
+    width: 90%;
+    margin: 3px;
+}
+.time{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 10px;
+}
+.tumpnail{
+    position: relative;
+}
+
+
+
+
